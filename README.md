@@ -1,24 +1,9 @@
-# README
+RECAP CRUD
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+index      get        .all
+show       get        .find(:id)
+new        get(form)  .new
+create     post       .create(attributes)
+edit       get(form)  .find(id)
+update     patch       .update(attributes)
+destroy    delete     .destroy
